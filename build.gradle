@@ -10,6 +10,7 @@ plugins {
     id 'java'
 }
 
+project.buildDir = '/workspaces/gradleMCP/jar'
 group 'YourName'
 version '1.0'
 
@@ -18,6 +19,8 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
     jcenter()
+
+    maven{ url = 'https://jitpack.io'}
 }
 
 dependencies {
