@@ -10,7 +10,7 @@ plugins {
     id 'java'
 }
 
-project.buildDir = '/workspaces/gradleMCP/jar'
+project.buildDir = './jar'
 group 'YourName'
 version '1.0'
 
